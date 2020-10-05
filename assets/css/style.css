@@ -1,23 +1,59 @@
 body {
-    display: block;
-    margin: 20px 100px;
+    margin: 0 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 15%;
+    min-width: 800px;
+}
+
+header {
+    order: 1;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0 0 2px #000000;
+    background: linear-gradient(180deg, rgb(190,240,255), rgb(255,255,255));
+    padding: 20px 50px;
+}
+
+section {
+    order: 2;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+article {
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+footer {
+    order: 3;
+    text-align: center;
+    color: lightgray;
+    font-size: 10px;
+    margin: 30px;
 }
 
 h1 {
-    color: darkblue;
     font-weight: bolder;
 }
 
 h2 {
-    display: block;
-    margin-left: 20px;
-    color: blue;
     font-weight: bold;
+    background: linear-gradient(90deg, rgb(190,240,255), rgb(255,255,255));
+    padding: 10px 0px 5px 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-shadow: 0 0 2px #000000;
 }
 
 p {
-    display: block;
     margin-left: 30px;
 }
 
@@ -27,10 +63,9 @@ i {
 
 code {
     display: block;
-    padding: 10px 0px 10px 10px;
+    padding: 15px 0px 20px 15px;
     margin: 0px 30px;
-    border-width: 1px;
-    border-radius: 10%;
+    border-radius: 5px;
     width: 90%;
     background-color: lightgray;
     font-family: 'Courier New', Courier, monospace;
