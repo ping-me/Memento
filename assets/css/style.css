@@ -1,0 +1,37 @@
+body {
+    display: block;
+    margin: 20px 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    font-weight: bolder;
+}
+
+h2 {
+    display: block;
+    margin-left: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-left: 30px;
+}
+
+i {
+    color: gray;
+}
+
+code {
+    display: block;
+    padding: 10px 0px 10px 10px;
+    margin: 0px 30px;
+    border-width: 1px;
+    border-radius: 10%;
+    width: 90%;
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
