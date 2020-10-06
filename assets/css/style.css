@@ -6,12 +6,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 15%;
-    min-width: 800px;
+    min-width: 600px;
 }
 header {
     order: 1;
     text-align: center;
-    background: linear-gradient(180deg, lightblue, white);
+    background: linear-gradient(180deg, rgb(0, 100, 128), white);
     padding: 20px 50px;
     margin-bottom: 50px;
 }
@@ -22,7 +22,7 @@ section {
 }
 article {
     border: 1px solid lightgray;
-    padding: 0px 30px 30px 15px;
+    padding: 0px 30px 50px;
     margin: 15px;
     border-radius: 5px;
     background-color: white;
@@ -36,13 +36,12 @@ footer {
     margin: 30px;
 }
 h1 {
-    font-weight: bold;
     color: whitesmoke;
     text-shadow: 0 0 2px #000000;
 }
 h2 {
     border-bottom: 1px solid gray;
-    padding: 10px 300px 20px 15px;
+    padding: 10px 300px 20px 0px;
     color: whitesmoke;
     text-shadow: 0 0 2px #000000;
 }
