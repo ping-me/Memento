@@ -3,47 +3,39 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #container {
-    display: flex;
-    flex-direction: column;
     margin: 0 15%;
-    min-width: 600px;
 }
 header {
-    order: 1;
+    position: fixed;
     text-align: center;
-    background: linear-gradient(180deg, rgb(0, 100, 128), white);
-    padding: 20px 50px;
-    margin-bottom: 50px;
+    background: linear-gradient(180deg, #004080ff,#ffffff00);
+    width: 100%;
+    clear: none;
 }
 section {
-    order: 2;
-    border-radius: 5px;
     background-color: whitesmoke;
+    margin: 0 15%;
+    padding: 100px 0;
 }
 article {
-    float: left;
     border: 1px solid lightgray;
-    padding: 0px 30px 50px;
-    margin: 15px;
     border-radius: 5px;
     background-color: white;
     box-shadow: 3px 3px lightgray;
-}
-aside {
-    float: right;
-    border: 1px solid lightgray;
-    padding: 0px 30px 50px;
+    padding: 0 15px 15px;
     margin: 15px;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 3px 3px lightgray;
 }
 footer {
-    order: 3;
+    position: fixed;
     text-align: center;
     color: lightgray;
     font-size: 10px;
-    margin: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #ffffffd0;
+    border-top: 1px solid lightgray;
 }
 h1 {
     color: whitesmoke;
@@ -51,7 +43,7 @@ h1 {
 }
 h2 {
     border-bottom: 1px solid gray;
-    padding: 10px 300px 20px 0px;
+    padding: 10px 100px 20px 0px;
     color: whitesmoke;
     text-shadow: 0 0 2px #000000;
 }
